@@ -45,6 +45,14 @@ The spread has trended positive since mid-2022 and reached a multi-year high in 
 
 ---
 
+## Conclusion
+
+The CVX-WTI relationship is variable, not broken. Rolling correlations have ranged from 0.2 to 0.7 since 2010 with no sustained directional trend, and divergence between energy equities and crude is a recurring rather than novel pattern. What distinguishes the March 2026 Iran/Hormuz event is the speed and magnitude of the decoupling: WTI surged 35.6% in one week while CVX moved 1.7% — a capture rate of just 4.8%, compared to 84.8% during the comparable first week of the 2022 Russia/Ukraine conflict. The decrease in the CVX-WTI spread during the first week of the Iran war was the largest observable decline in the data going back to 2021.
+
+The broader energy sector's mirroring of this move points to a sector-wide interpretation rather than a standalone CVX story. The most likely explanation — though one this dashboard cannot fully confirm — is that the market priced the oil spike as a temporary geopolitical risk premium rather than a sustained shift in supply fundamentals that would flow through to energy company earnings. 
+
+---
+
 ## Dashboard Structure
 
 The dashboard consists of 8 pages organized as foundation → context → investigation:
@@ -127,13 +135,6 @@ A complete answer would require additional data not in scope for this version:
 - Fundamental metrics like free cash flow yield, capex-to-operating-cash-flow ratio, buyback pace, and dividend coverage
 - Oil futures curve structure (backwardation vs contango) at the time of the event
 
----
-
-## Conclusion
-
-The CVX-WTI relationship is variable, not broken. Rolling correlations have ranged from 0.2 to 0.7 since 2010 with no sustained directional trend, and divergence between energy equities and crude is a recurring rather than novel pattern. What distinguishes the March 2026 Iran/Hormuz event is the speed and magnitude of the decoupling: WTI surged 35.6% in one week while CVX moved 1.7% — a capture rate of just 4.8%, compared to 84.8% during the comparable first week of the 2022 Russia/Ukraine conflict. The decrease in the CVX-WTI spread during the first week of the Iran war was the largest observable decline in the data going back to 2021.
-
-The broader energy sector's mirroring of this move points to a sector-wide interpretation rather than a standalone CVX story. The most likely explanation — though one this dashboard cannot fully confirm — is that the market priced the oil spike as a temporary geopolitical risk premium rather than a sustained shift in supply fundamentals that would flow through to energy company earnings. 
 
 ---
 
@@ -141,5 +142,4 @@ The broader energy sector's mirroring of this move points to a sector-wide inter
 
 - `data_pull.py` — Master data acquisition script
 - `CVX_Oil_Correlation.pbix` — Power BI dashboard file
-- `screenshots/` — Page screenshots for reference
 - `README.md` — This file
